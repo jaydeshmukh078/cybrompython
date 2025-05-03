@@ -85,9 +85,29 @@ dictionry -> dict()           -> {}
 
 # 1. int str set 
 
-print("hello",end=',') #sep=' '  #inbuilt function attribute
-print("hi")
+# print("hello",end=',') #sep=' '  #inbuilt function attribute
+# print("hi")
 
-x=10
-y=20
-print(x,y,sep='\n')  # end='\n'  #inbuilt function attribute
+# x=10
+# y=20
+# print(x,y,sep='\n')  # end='\n'  #inbuilt function attribute
+
+
+import sys
+
+x=int()
+print("int : ",sys.getsizeof(x))
+y=float()
+print("float : ",sys.getsizeof(y))
+z=str()
+print("str : ",sys.getsizeof(z))
+p=list()
+print("list : ",sys.getsizeof(p))
+q=tuple()
+print("tuple : ",sys.getsizeof(q))
+r=dict()
+print("dict : ",sys.getsizeof(r))
+a=set()
+print("set : ",sys.getsizeof(a))
+b=frozenset()
+print("frozenset : ",sys.getsizeof(b))
