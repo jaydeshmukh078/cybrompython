@@ -2,7 +2,21 @@
 # 1. immutable (structure not changable)
 # 2. mutable (structure changable)
 
+# x=10
+# y=10
 
+# print(id(x),id(y))
+
+# x="jay"
+# y="jay"
+
+# print(id(x),id(y))
+
+x=[2,3,4]
+y=[2,3,4]
+
+print(x,y)
+print(id(x),id(y))
 
 # --------------------------------------------------------------------------------------------------------------
 # declaration of empty set (data type)
@@ -93,21 +107,21 @@ dictionry -> dict()           -> {}
 # print(x,y,sep='\n')  # end='\n'  #inbuilt function attribute
 
 
-import sys
+# import sys
 
-x=int()
-print("int : ",sys.getsizeof(x))
-y=float()
-print("float : ",sys.getsizeof(y))
-z=str()
-print("str : ",sys.getsizeof(z))
-p=list()
-print("list : ",sys.getsizeof(p))
-q=tuple()
-print("tuple : ",sys.getsizeof(q))
-r=dict()
-print("dict : ",sys.getsizeof(r))
-a=set()
-print("set : ",sys.getsizeof(a))
-b=frozenset()
-print("frozenset : ",sys.getsizeof(b))
+# x=int()
+# print("int : ",sys.getsizeof(x))
+# y=float()
+# print("float : ",sys.getsizeof(y))
+# z=str()
+# print("str : ",sys.getsizeof(z))
+# p=list()
+# print("list : ",sys.getsizeof(p))
+# q=tuple()
+# print("tuple : ",sys.getsizeof(q))
+# r=dict()
+# print("dict : ",sys.getsizeof(r))
+# a=set()
+# print("set : ",sys.getsizeof(a))
+# b=frozenset()
+# print("frozenset : ",sys.getsizeof(b))
